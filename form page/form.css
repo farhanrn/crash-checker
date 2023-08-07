@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Arial';
+}
+.latar{
+    background-image: url('latar.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    display: table;
+    vertical-align: middle;
+}
+
+.beranda{
+    background-color: rgb(51, 51, 51);
+    opacity: 88%; 
+    padding: 50px;
+    margin: 50px 150px ;
+    box-shadow: 5px 15px 20px rgba(0,0,0,0.5);
+    border-radius: 10px;   
+    color: white;
+    
+}
+#back{
+    width: 45px;
+    height: 25px;
+    background-color: aliceblue;
+    opacity: 90%;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+#back:hover{
+    background-color: grey;
+}
+h2{
+    text-align: center;
+}
+
+input, textarea{
+    padding: 10px;
+    width: 100%;
+    border: 2.5px solid #b0b0b0;
+    border-radius: 5px;
+}
+#setuju, #tidakSetuju{
+    padding: 5px;
+    width: 20px;    
+}
+
+#button{
+    display: flex;
+    color: #101020;
+    font-weight: 500;
+    line-height: 25px;
+}
+#buts, #butc{
+    margin-right: 15px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#butc{
+    border: 2.5px solid rgb(98, 98, 98);
+    width: 70px;
+}
+#buts{
+    background-color: rgb(51, 51, 51);
+    color: white;
+    border: 2.5px solid white;
+}
+
+#butc:hover{
+    border: 2.5px solid rgb(252, 250, 250);
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+#buts:hover{
+    background-color: rgb(254, 253, 253);
+    color: black;
+}
+img{
+    text-align: center;
+}
+
+@media(max-width: 700px){
+    .beranda{
+        background-color: rgb(51, 51, 51);
+        opacity: 85%; 
+        padding: 20px;
+        margin: 50px 50px ;
+        box-shadow: 5px 15px 20px rgba(0,0,0,0.5);
+        border-radius: 10px;   
+        color: white;
+    }
+    #back{
+        width: 35px;
+        height: 18px;
+        background-color: aliceblue;
+        padding: 4px 7px;
+        border-radius: 2px;
+    }
+}
